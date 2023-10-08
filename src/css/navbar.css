@@ -1,0 +1,39 @@
+*{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+ 
+.contenedor-nav {
+    width: 1920px;
+    height: 85px;
+    background-color: #003459;
+    color: #003459;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.hover-nav{
+    width: 150px;
+    height: 20;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.hover-nav:hover{
+    filter: blur(1.1);
+    transition: all 0.3s ease-in-out;
+    color: white;
+    background-color: #003459;
+    animation: reverse 0.24s;
+}
+ 
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}

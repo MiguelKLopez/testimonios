@@ -1,0 +1,45 @@
+.contenedor-testimonio{
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003459;
+    box-shadow: 0 2px 3px 15px #007EA7 / 15%;
+    border-radius: 15px;
+}
+
+.img-testimonio{
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contenedor-texto-testimonio{
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'monospace', arial, hack nerd font mono;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: white;       
+}
+
+.nombre-testimonio{
+    font-size: 1.3rem;
+}
+
+.cargo-testimonio{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.texto-testimonio{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
